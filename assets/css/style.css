@@ -288,12 +288,188 @@ main {
 
 .card:nth-child(3) .learn-more,
 .card:nth-child(6) .learn-more {
-    color: #fff; 
+    color: #fff;
 }
 
 .card:nth-child(3) .icon-arrow,
 .card:nth-child(6) .icon-arrow {
-    background-color: #fff; 
-    color: #000;            
+    background-color: #fff;
+    color: #000;
 }
+
 /* Finish Section Services */
+
+/* Start Section Happen - Mehti */
+.happen-section {
+    background: #f3f3f3;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 45px;
+    padding: 50px;
+}
+
+.happen-text {
+    max-width: 500px;
+}
+
+.happen-text h4 {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 1.3;
+
+}
+
+.happen-text p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.happen-img {
+    max-width: 500px;
+}
+
+/* Finish Happen Section */
+
+/* Start Case Section - Mehti */
+.case-section {
+    padding: 60px 0;
+}
+
+.case-section-main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.dark-card {
+    background-color: #191a23;
+    color: #ffffff;
+    padding: 60px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.card-column {
+    flex: 1;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+.card-column:last-child {
+    border-right: none;
+}
+
+.card-column p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: #e0e0e0;
+}
+
+
+.learn-more {
+    color: #b9ff66;
+    text-decoration: none;
+    font-size: 18px;
+    display: inline-flex;
+    align-items: center;
+    font-weight: 500;
+    transition: opacity 0.3s;
+}
+
+.learn-more:hover {
+    opacity: 0.8;
+}
+
+/* Finish Case Section */
+
+/*  Start Process Section - Mehti */
+
+.process-section {
+    padding: 60px 0;
+}
+
+.process-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.process-card {
+    background-color: #F3F3F3;
+    border: 1px solid #191A23;
+    border-radius: 45px;
+    padding: 30px 60px;
+    box-shadow: 0 5px 0 #191A23;
+}
+
+
+.process-card.open {
+    background-color: #B9FF66;
+}
+
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.num {
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+.icon-box {
+    width: 58px;
+    height: 58px;
+    border: 1px solid #191A23;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    background-color: #F3F3F3; 
+}
+
+
+.card-body hr {
+    border: none;
+    border-top: 1px solid #000;
+    margin: 30px 0;
+    opacity: 0.2;
+}
+
+.card-body p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/*  Finish Process Section  */
+
